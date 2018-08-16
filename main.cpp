@@ -9,4 +9,6 @@ int main()
 	printValues("Initial Values", arr, arr.size());
 	bubbleSort(arr, arr.size());
 	printValues("After Sorting", arr, arr.size());
+
+    return 0;
 }
