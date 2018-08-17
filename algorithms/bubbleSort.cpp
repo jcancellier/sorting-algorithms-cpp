@@ -18,5 +18,6 @@ void bubbleSort(T &arr, int size)
 				didSwap = true;
 			}
 		}
+		passes++;
 	} while(didSwap);
 }

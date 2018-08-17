@@ -5,10 +5,10 @@
 
 int main()
 {
-    std::vector<double> arr = {3, 2, 1, 1, 2, 3};
-    printValues("Initial Values", arr, arr.size());
-    bubbleSort(arr, arr.size());
-    printValues("After Sorting", arr, arr.size());
+    int arr[] = {5, 4, 3, 2, 1};
+    printValues("Initial Values", arr, 5);
+    bubbleSort(arr, 5);
+    printValues("After Sorting", arr, 5);
 
     return 0;
 }
