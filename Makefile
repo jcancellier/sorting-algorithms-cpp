@@ -1,5 +1,5 @@
 CC=g++
-CFLAGS=-Wall
+CFLAGS=-Wall -std=c++11
 RM =rm -f
 BUILD_DIR=build
 ALGORITHMS=algorithms/*
