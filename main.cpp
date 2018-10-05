@@ -10,5 +10,7 @@ int main()
     bubbleSort(arr, 5);
     printValues("After Sorting", arr, 5);
 
+    cout << "hello" << endl;
+
     return 0;
 }
